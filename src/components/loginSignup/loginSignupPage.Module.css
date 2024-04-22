@@ -1,0 +1,120 @@
+.checkbox1:checked,
+.checkbox1:not(:checked) {
+    display: none;
+}
+
+.lscontainer,
+.lscontainer>* {
+    background: #F7F7F8;
+
+}
+
+.lscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.lscontainer .slidecheck {
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lscontainer .maincontainer {
+    position: relative;
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.lscontainer .maincontainer .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* تعيين القيمة الافتراضية لليمين بحيث يكون الـ overlay خارج الشاشة */
+    background-color: #FF9500;
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.5s ease;
+    /* تأثير التحول لليمين */
+}
+
+.lscontainer .maincontainer .overlay.overlay-active {
+    right: 50%;
+    /* تعيين قيمة 0 للـ right لنقل الـ overlay إلى اليمين */
+    border-radius: 10px 0 0 10px;
+}
+
+.lscontainer .maincontainer .overlay h2 {
+    background-color: #FF9500;
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.lscontainer .maincontainer .overlay p {
+    background-color: #FF9500;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.slidecheck .checkbox1:checked+label,
+.slidecheck .checkbox1:not(:checked)+label {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 60px;
+    height: 16px;
+    border-radius: 8px;
+    padding: 0;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: #fcc06d;
+}
+
+.slidecheck .checkbox1:checked+label:before,
+.slidecheck .checkbox1:not(:checked)+label:before {
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fcc06d;
+    background-color: #020305;
+    content: '';
+    /* تمت إزالة خاصية الـ content */
+    background-image: url('./checkicon.svg');
+    /* تعيين الصورة كخلفية */
+    background-size: 80%;
+    /* لتغطية كامل مساحة الـ label */
+    background-position: center;
+    /* لتوسيط الصورة داخل الـ label */
+    z-index: 20;
+    top: -10px;
+    left: -10px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+
+.slidecheck .checkbox1:checked+label:before {
+    transform: translateX(44px) rotate(540deg);
+}

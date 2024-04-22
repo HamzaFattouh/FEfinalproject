@@ -1,0 +1,122 @@
+.cartPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cartPage .productCart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.cartPage .productCart .product {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #FF9500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cartPage .productCart .product .leftside {
+    display: flex;
+    height: 100%;
+    gap: 20px;
+    align-items: start;
+}
+
+.cartPage .productCart .product .leftside img {
+    height: 90px;
+    width: 70px;
+}
+
+.cartPage .productCart .product .leftside .details {
+    height: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartPage .productCart .product .leftside .details .price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cartPage .productCart .product .leftside .details .price .firstprice {
+    color: red;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.cartPage .productCart .product .leftside .details .price .finalprice {
+    font-size: 20px;
+}
+
+.cartPage .productCart .product .rightSide {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+
+}
+
+.cartPage .productCart .product .rightSide .quantity {
+    display: flex;
+    margin: 5px;
+}
+
+.cartPage .productCart .product .rightSide .quantity .subQuantity {
+    height: 25px;
+    width: 30px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #FF9500;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.cartPage .productCart .product .rightSide .quantity .addQuantity {
+    height: 25px;
+    width: 30px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FF9500;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.cartPage .productCart .product .rightSide .quantity p {
+    width: 30px;
+    text-align: center;
+    border: 2px solid #FF9500;
+}
+
+.cartPage .productCart .product .delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.cartPage .productCart .clearcart button {
+    border: solid 1px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #FF9500;
+    border-color: #FF9500;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}

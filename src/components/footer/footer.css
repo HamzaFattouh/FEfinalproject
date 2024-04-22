@@ -1,0 +1,351 @@
+footer {
+    background-color: #FFF;
+}
+
+footer .contaner {
+    background-color: #FFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contaner .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFF;
+}
+
+footer .contaner .content .leftside {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contaner .content .leftside .logo {
+    background-color: #FFF;
+}
+
+footer .contaner .content .leftside .communication {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contaner .content .leftside .communication div {
+    background-color: #FFF;
+    display: flex;
+}
+
+footer .contaner .content .leftside .communication div img {
+    background-color: #FFF;
+}
+
+footer .contaner .content .leftside .communication div p {
+    background-color: #FFF;
+}
+
+footer .contaner .content .rightside {
+    display: flex;
+    background-color: #FFF;
+    justify-content: end;
+    width: 100%;
+}
+
+footer .contaner .content .rightside ol {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 100%;
+}
+
+footer .contaner .content .rightside ol li {
+    background-color: #FFF;
+    color: #59595A;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+footer .contaner .content .rightside ol li:nth-child(1) {
+
+    color: #262626;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+footer .contaner .content .rightside .socialprofiles {
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contaner .content .rightside .socialprofiles h3 {
+    color: #262626;
+    background-color: #FFF;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+footer .contaner .content .rightside .socialprofiles .social {
+    display: flex;
+    background-color: #FFF;
+}
+
+footer .contaner .content .rightside .socialprofiles .social img {
+    border: 1px solid #f1f1f3;
+}
+
+footer hr {
+    width: 100%;
+    height: 1px;
+    background-color: #F1F1F3;
+}
+
+footer .rights {
+    background-color: #FFF;
+    color: #656567;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media screen and (min-width: 1920px) {
+    footer {
+        margin-top: 113px;
+    }
+
+    footer .contaner {
+        padding: 100px 162px 30px 162px;
+        gap: 50px;
+    }
+
+    footer .contaner .content .leftside {
+        gap: 40px;
+    }
+
+    footer .contaner .content .leftside .logo {
+        width: fit-content;
+        height: 54px;
+    }
+
+    footer .contaner .content .leftside .communication {
+        gap: 20px;
+    }
+
+    footer .contaner .content .leftside .communication div {
+        gap: 6px;
+    }
+
+    footer .contaner .content .leftside .communication div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .contaner .content .leftside .communication div p {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside {
+        gap: 30px;
+        width: 807px;
+    }
+
+    footer .contaner .content .rightside ol {
+        gap: 8px;
+    }
+
+    footer .contaner .content .rightside ol li {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 20px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles {
+        gap: 14px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles h3 {
+        font-size: 20px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social {
+        gap: 14px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social img {
+        width: 52px;
+        padding: 14px;
+        border-radius: 8px;
+    }
+
+    footer .rights {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    footer {
+        margin-top: 136px;
+    }
+
+    footer .contaner {
+        padding: 60px 80px 20px 80px;
+        gap: 30px;
+    }
+
+    footer .contaner .content .leftside {
+        gap: 30px;
+    }
+
+    footer .contaner .content .leftside .logo {
+        width: fit-content;
+        height: 44px;
+    }
+
+    footer .contaner .content .leftside .communication {
+        gap: 14px;
+    }
+
+    footer .contaner .content .leftside .communication div {
+        gap: 4px;
+    }
+
+    footer .contaner .content .leftside .communication div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .contaner .content .leftside .communication div p {
+        font-size: 16px;
+    }
+
+    footer .contaner .content .rightside {
+        gap: 24px;
+        width: 737px;
+    }
+
+    footer .contaner .content .rightside ol {
+        gap: 8px;
+    }
+
+    footer .contaner .content .rightside ol li {
+        font-size: 16px;
+    }
+
+    footer .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles {
+        gap: 10px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles h3 {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social {
+        gap: 14px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social img {
+        width: 44px;
+        padding: 14px;
+        border-radius: 6px;
+    }
+
+    footer .rights {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+    footer {
+        margin-top: 82px;
+    }
+
+    footer .contaner {
+        padding: 50px 20px 24px 20px;
+        gap: 20px;
+    }
+
+    footer .contaner .content {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    footer .contaner .content .leftside {
+        gap: 30px;
+    }
+
+    footer .contaner .content .leftside .logo {
+        width: fit-content;
+        height: 44px;
+    }
+
+    footer .contaner .content .leftside .communication {
+        gap: 12px;
+    }
+
+    footer .contaner .content .leftside .communication div {
+        gap: 6px;
+    }
+
+    footer .contaner .content .leftside .communication div img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .contaner .content .leftside .communication div p {
+        font-size: 15px;
+    }
+
+    footer .contaner .content .rightside {
+        gap: 30px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .contaner .content .rightside ol {
+        gap: 4px;
+        width: 128px;
+    }
+
+    footer .contaner .content .rightside ol li {
+        font-size: 14px;
+    }
+
+    footer .contaner .content .rightside ol li:nth-child(1) {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles {
+        gap: 10px;
+        width: fit-content;
+    }
+
+    footer .contaner .content .rightside .socialprofiles h3 {
+        font-size: 18px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social {
+        gap: 14px;
+    }
+
+    footer .contaner .content .rightside .socialprofiles .social img {
+        width: 44px;
+        padding: 14px;
+        border-radius: 6px;
+    }
+
+    footer .rights {
+        font-size: 14px;
+    }
+}

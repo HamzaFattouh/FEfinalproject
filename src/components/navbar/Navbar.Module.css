@@ -1,0 +1,270 @@
+header,
+header>* {
+    background: #F7F7F8;
+}
+
+header .navbar {
+    background: #F7F7F8;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+header .navbar .contaner {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .navbar .contaner .leftside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .navbar .contaner .leftside nav ol {
+    display: flex;
+    gap: 20px;
+}
+
+header .navbar .contaner .leftside nav ol li .pageslink {
+    font-weight: 400;
+    color: #262626;
+    cursor: pointer;
+}
+
+header .navbar .contaner .leftside nav ol li .active {
+    border-radius: 6px;
+    background: #F1F1F3;
+}
+
+header .navbar .contaner .rightside {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .contaner .rightside .auth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .navbar .contaner .rightside .auth :nth-child(1) {
+    border: solid 1px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #FF9500;
+    border-color: #FF9500;
+    cursor: pointer;
+}
+
+.userBar {
+    width: 250px;
+    height: fit-content;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    bottom: 0;
+    z-index: 1000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid #FF9500;
+    border-radius: 20px;
+
+}
+
+.userBar .userlink {
+    text-align: center;
+    width: 100%;
+    color: #262626;
+}
+
+.userBar .active {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #F1F1F3;
+}
+
+.userBar .logoutbutton {
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: #FF9500;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+@media screen and (min-width:1920px) {
+    header .navbar {
+        width: calc(100% - 60px);
+        margin-top: 20px;
+    }
+
+    header .navbar .contaner {
+        width: calc(100% - 264px);
+    }
+
+    header .navbar .contaner .leftside {
+        gap: 50px;
+    }
+
+    header .navbar .contaner .leftside .logo .logoicon {
+        width: 54px;
+        height: 54px;
+    }
+
+    header .navbar .contaner .leftside nav ol li .pageslink {
+        margin: 14px 13px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #262626;
+    }
+
+    header .navbar .contaner .leftside nav ol li .active {
+        padding: 12px 20px;
+        border-radius: 6px;
+    }
+
+    header .navbar .contaner .rightside .auth {
+        gap: 30px;
+    }
+
+    header .navbar .contaner .rightside .auth a {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    header .navbar .contaner .rightside .auth :nth-child(1) {
+        padding: 14px 34px;
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    header .navbar .contaner .rightside .burger button {
+        opacity: 0;
+    }
+
+    header .navbar .contaner .rightside .burger button img {
+        width: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    header .navbar {
+        width: calc(100% - 40px);
+        margin-top: 20px;
+    }
+
+    header .navbar .contaner {
+        width: calc(100% - 120px);
+    }
+
+    header .navbar .contaner .leftside {
+        gap: 50px;
+    }
+
+    header .navbar .contaner .leftside .logo .logoicon {
+        width: 44px;
+        height: 44px;
+    }
+
+    header .navbar .contaner .leftside nav ol li .pageslink {
+        margin: 14px 12px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #262626;
+    }
+
+    header .navbar .contaner .leftside nav ol li .active {
+        padding: 12px 20px;
+        border-radius: 6px;
+    }
+
+    header .navbar .contaner .rightside .auth {
+        gap: 30px;
+    }
+
+    header .navbar .contaner .rightside .auth a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    header .navbar .contaner .rightside .auth :nth-child(1) {
+        padding: 14px 34px;
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    header .navbar .contaner .rightside .burger button {
+        opacity: 0;
+    }
+
+    header .navbar .contaner .rightside .burger button img {
+        width: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+    header .navbar {
+        width: calc(100% - 32px);
+        margin-top: 40px;
+    }
+
+    header .navbar .contaner {
+        width: 100%;
+    }
+
+
+
+    header .navbar .contaner .leftside .logo .logoicon {
+        width: 40px;
+        height: 40px;
+    }
+
+    header .navbar .contaner .leftside nav {
+
+        opacity: 0;
+    }
+
+    header .navbar .contaner .leftside nav ol li {
+        width: 0;
+    }
+
+    header .navbar .contaner .rightside .auth {
+        gap: 20px;
+    }
+
+    header .navbar .contaner .rightside .auth link {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    header .navbar .contaner .rightside .auth :nth-child(1) {
+        padding: 12px 20px;
+        border: solid 1px;
+        border-radius: 10px;
+    }
+
+    header .navbar .contaner .rightside .burger button {
+        opacity: 1;
+    }
+
+    header .navbar .contaner .rightside .burger button img {
+        width: 34px;
+    }
+
+    header .navbar .contaner .rightside {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

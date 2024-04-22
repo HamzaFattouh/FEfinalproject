@@ -1,0 +1,97 @@
+.productsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.productsPage h1 {
+    font-size: 40px;
+}
+
+.productsPage .searchdiv input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom: solid 1px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.productsPage .products {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.productsPage .products .productdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.productsPage .products .productdiv button {
+    border: solid 1px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #FF9500;
+    border-color: #FF9500;
+    cursor: pointer;
+    height: 25px;
+}
+
+.productsPage .products .product {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 310px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.productsPage .products .product img {
+    width: 200px;
+    height: 250px;
+}
+
+.productsPage .products .product p {
+    color: black;
+    text-align: center;
+}
+
+.productsPage .pagination {
+    display: flex;
+    align-items: center;
+}
+
+.productsPage .pagination .prevbutton {
+    background-color: #FF9500;
+    color: #FFF;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.productsPage .pagination .nextbutton {
+    background-color: #FF9500;
+    color: #FFF;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.productsPage .pagination button:disabled {
+    color: gray;
+    cursor: auto;
+}
+
+.productsPage .pagination p {
+    border: 2px solid #FF9500;
+    padding: 1.5px 10px;
+}

@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+.loginpage * {
+  background: #F7F7F8;
+
+}
+
+.loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px 0 0 10px;
+}
+
+.loginpage .logincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  border-radius: 10px 0 0 10px;
+  padding: 0 50px;
+}
+
+.loginpage .logincontainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.loginpage .logincontainer form div label {
+  font-size: 16px;
+}
+
+.loginpage .logincontainer form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginpage .logincontainer form div input {
+  width: 250px;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginpage .logincontainer .forgetpass {
+  color: #FF9500;
+  cursor: pointer;
+}
+
+.loginpage .logincontainer form .submitbtn {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #FF9500;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px;
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #FF9500;
+  cursor: pointer;
+}
+
+.loginpage .logincontainer h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.loginpage .forgetpassdiv {
+  position: absolute;
+  top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginpage .forgetpassdiv .closeDiv {
+  width: 30px;
+  height: 30px;
+}
+
+/*forget password*/
+
+.forgetpasswordpage {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgetpasswordpage form,
+.newpasswordpage form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgetpasswordpage form div,
+.newpasswordpage form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forgetpasswordpage form div input,
+.newpasswordpage form div input {
+  width: 250px;
+  height: 40px;
+  background-color: #EEE;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forgetpasswordpage form button {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #FF9500;
+  width: 140px;
+  height: 40px;
+  padding: 12px 45px;
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #FF9500;
+}
+
+.newpasswordpage form button {
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #FF9500;
+  width: 240px;
+  height: 40px;
+  padding: 12px 45px;
+  transition: transform 80ms ease-in;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #FF9500;
+}

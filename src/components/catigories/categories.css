@@ -1,0 +1,31 @@
+.catigoriespage {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background: #F7F7F8;
+}
+
+.catigoriespage>* {
+    background: #F7F7F8;
+}
+
+.catigoriespage h2 {
+    font-size: 40px;
+}
+
+.catigoriespage .categoriesdiv {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catigoriespage .categoriesdiv img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}

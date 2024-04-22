@@ -1,0 +1,62 @@
+.productPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.productPage .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.productPage .Container .productContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.productPage .Container .productContainer .rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.productPage .Container .productContainer .rightside .description {
+    text-align: left;
+}
+
+.productPage .Container .productContainer .rightside div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.productPage .Container .productContainer .rightside div .finalPrice {
+    font-size: 35px;
+}
+
+.productPage .Container .productContainer .rightside div button {
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #FF9500;
+    width: 240px;
+    height: 40px;
+    padding: 12px 45px;
+    transition: transform 80ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #FF9500;
+}
